@@ -14,11 +14,13 @@ body {
 .banner {
     width: 100%;
     position: relative;
+    background-color: black;
   }
 
   .banner video {
     object-fit: cover;
     width: 100%;
+    filter: opacity(55%);
   }
 
   .banner .content {
@@ -35,6 +37,7 @@ body {
     margin: 0;
     padding: 0;
     font-size: 5.5em;
+    font-family: "Playfair Display", serif;
     text-transform: uppercase;
     color: #ffff;
     position: relative;
@@ -42,10 +45,17 @@ body {
 
   .banner .content p {
     font-size: 1.5em;
+    font-family: "Nanum Gothic", sans-serif;
+    font-weight: 900;
+    text-transform: uppercase;
     color: #ffff;
     position: relative;
   }
 
   .button1 {
     position: relative;
+    font-family: "Roboto", sans-serif;
+    padding: 2%;
+    border-radius: 15%;
+    border: 2px solid #038f70;
   }
