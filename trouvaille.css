@@ -72,6 +72,7 @@ body {
 .intro{
   padding-left: 20%;
   display: flex;
+  text-align: center;
 }
 
 .intro1{
@@ -89,6 +90,7 @@ body {
   color: #038f70;
   font-family: "Playfair Display", "serif";
   text-align: center;
+  padding-top: 5%;
 }
 
 .intro p{
@@ -99,6 +101,7 @@ body {
 .acomodacoes{
   padding-left: 8%;
   padding-right: 8%;
+  text-align: center;
 }
 
 .acomodacoes h1{
@@ -110,6 +113,11 @@ body {
   color: #038f70;
   border-style: solid;
   border-color: #038f70;
+}
+
+.acomodacoes h1:hover{
+  background-color: #038f70; 
+  color: white;
 }
 
 .galeria {
@@ -135,23 +143,104 @@ body {
   text-align: center;
 }
 
+.ofertas{
+  text-align: center;
+  padding-left: 8%;
+  padding-right: 8%;
+}
+
+.ofertas img{
+  width: 28%;
+}
+
 .ofertas h1{
   text-align: center;
   font-family: "Playfair Display", "serif";
   font-size: 250%;
-  text-align: center;
   margin-top: 4%;
   text-transform: uppercase;
   color: #038f70;
+  border-style: solid;
+  border-color: #038f70;
 }
 
-.oferta1 img{
-  width: 20%;
-  padding-top: 2%;
-  padding-left: 30%;
+.ofertas h1:hover{
+  background-color: #038f70; 
+  color: white;
+}
+
+.ofertas h2{
+  font-family: "Playfair Display", "serif";
+  text-align: center;
+  font-size: 220%;
+  color: #038f70;
+  margin-top: 0;
+}
+
+.ofertas p{
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+}
+
+.texto1{
+  padding-top: 3%;
+  padding-bottom: 3%;
+  column-count: 3;
+  column-gap: 5%;
+  column-rule-style: solid;
+  column-rule-color: #038f70;
+}
+
+.button2 {
+  font-family: "Roboto", sans-serif;
+  color: white;
+  padding-left: 2%;
+  padding-right: 2%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  border-radius: 10%;
+  border: 2px solid #038f70;
+  background-color: #038f70;
+  transition-duration: 0.4s;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.button2:hover {
+  background-color: white; 
+  color: #038f70;
+}
+
+.feedbacks{
+  padding-left: 8%;
+  padding-right: 8%;
 }
 
 .feedbacks h1{
+  text-align: center;
+  font-family: "Playfair Display", "serif";
+  font-size: 250%;
+  margin-top: 3%;
+  text-transform: uppercase;
+  color: #038f70;
+  border-style: solid;
+  border-color: #038f70;
+}
+
+.feedbacks h2{
+  color: #038f70;
+  font-family: "Playfair Display", "serif";
+}
+
+.feedbacks p{
+  margin-top: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+.texto2{
+  padding-top: 3%;
+  padding-bottom: 3%;
+  column-count: 3;
+  column-gap: 5%;
   text-align: center;
 }
 
@@ -177,4 +266,25 @@ footer p, h2{
   text-align: center;
   line-height: 150%;
   padding-left: 0;
+}
+
+
+/* Media Queries para Telemóvel, por exemplo */
+@media (max-width: 768px) {
+  
+
+
+
+    .intro{
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+    
+
+
+
+
+
+
 }
