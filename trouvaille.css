@@ -272,19 +272,52 @@ footer p, h2{
 /* Media Queries para Telemóvel, por exemplo */
 @media (max-width: 768px) {
   
+  .banner .content h1 {
+    font-size: 2.5em;
+  }
+  
+  .banner .content p {
+    font-size: 1.0em;
+  }
 
+  .intro{
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 0;
+  }
 
+  .intro img{
+    display: none;
+  }
 
-    .intro{
-      flex-direction: column;
-      align-items: center;
-      text-align: center;
-    }
-    
+  .button1 {
+    display: none;
+  }
 
+  footer h1{
+    font-size: 3em;
 
+  }
 
+  .acomodacoes h1{
+    font-size: 200%;
+    color: white;
+    background-color: #038f70;
+    border-style: solid;
+    border-color: #038f70;
+  }
+  
+  .acomodacoes h1:hover{
+    background-color: white; 
+    color: #038f70;
+  }
+  
+  .galeria{
+    width: 44%;
+  }
 
-
-
+  .desc{
+    display: none;
+  }
 }
