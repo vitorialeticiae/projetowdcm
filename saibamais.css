@@ -88,13 +88,13 @@ header {
     font-size: 120%;
   }
 
-  .contatos1{
+  .historia{
     padding-left: 8%;
     padding-right: 8%;
     text-align: center;
   }
   
-  .contatos1 h1{
+  .historia h1{
     font-family: "Playfair Display", "serif";
     font-size: 250%;
     text-align: center;
@@ -106,16 +106,16 @@ header {
     background-color: #038f70;
   }
   
-  .contatos1 h1:hover{
+  .historia h1:hover{
     background-color: white; 
     color: #038f70;
   }
 
-  .contatos1 p, h2{
+  .historia p, h2{
     font-family: "Roboto", sans-serif;
   }
   
-  .contatos1 p{
+  .historia p{
     font-size: 1.5em;
   }
 
@@ -149,6 +149,37 @@ header {
     font-size: 220%;
     color: #038f70;
     margin-top: 0;
+  }
+
+  .cta{
+    padding-left: 8%;
+    padding-right: 8%;
+    text-align: center;
+  }
+  
+  .cta h1{
+    font-family: "Playfair Display", "serif";
+    font-size: 250%;
+    text-align: center;
+    margin-top: 4%;
+    text-transform: uppercase;
+    color: white;
+    border-style: solid;
+    border-color: #038f70;
+    background-color: #038f70;
+  }
+  
+  .cta h1:hover{
+    background-color: white; 
+    color: #038f70;
+  }
+
+  .cta p, h2{
+    font-family: "Roboto", sans-serif;
+  }
+  
+  .cta p{
+    font-size: 1.5em;
   }
   
   footer{
