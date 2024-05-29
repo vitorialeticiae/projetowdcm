@@ -1,5 +1,23 @@
 header {
   background-color: #038f70;
+  display: flex;
+  font-family: "Nanum Gothic", sans-serif;
+  font-weight: 900;
+  font-size: 1.0em;
+}
+
+header ul{
+  list-style-type: none;
+  margin: 0;
+  overflow: hidden;
+  color: white;
+  padding-left: 70%;
+  padding-top: 2%;
+}
+
+header li{
+  display: inline;
+  padding: 14px 16px;
 }
 
 #logo {
@@ -69,6 +87,22 @@ body {
   color: #038f70;
 }
 
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  text-decoration: underline;
+}
+
 .intro{
   padding-left: 20%;
   display: flex;
@@ -110,14 +144,15 @@ body {
   text-align: center;
   margin-top: 4%;
   text-transform: uppercase;
-  color: #038f70;
+  color: white;
   border-style: solid;
   border-color: #038f70;
+  background-color: #038f70;
 }
 
 .acomodacoes h1:hover{
-  background-color: #038f70; 
-  color: white;
+  background-color: white; 
+  color: #038f70;
 }
 
 .galeria {
@@ -159,14 +194,15 @@ body {
   font-size: 250%;
   margin-top: 4%;
   text-transform: uppercase;
-  color: #038f70;
+  color: white;
   border-style: solid;
   border-color: #038f70;
+  background-color: #038f70;
 }
 
 .ofertas h1:hover{
-  background-color: #038f70; 
-  color: white;
+  background-color: white; 
+  color: #038f70;
 }
 
 .ofertas h2{
@@ -221,10 +257,16 @@ body {
   font-size: 250%;
   margin-top: 3%;
   text-transform: uppercase;
-  color: #038f70;
+  color: white;
   border-style: solid;
   border-color: #038f70;
+  background-color: #038f70;
 }
+
+ .feedbacks h1:hover{
+  background-color: white; 
+  color: #038f70;
+ }
 
 .feedbacks h2{
   color: #038f70;
@@ -271,6 +313,26 @@ footer p, h2{
 
 /* Media Queries para Telemóvel, por exemplo */
 @media (max-width: 768px) {
+
+  .header img{
+    width:3%;
+  }
+
+  header {
+    display: flex;
+    font-weight: 900;
+    font-size: 1.0em;
+  }
+
+  header ul{
+    padding-left: 10%;
+    padding-top: 7%;
+  }
+  
+  header li{
+    display: inline;
+    padding: 14px 16px;
+  }
   
   .banner .content h1 {
     font-size: 2.0em;

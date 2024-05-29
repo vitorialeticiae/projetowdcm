@@ -1,0 +1,295 @@
+header {
+    background-color: #038f70;
+    display: flex;
+    font-family: "Nanum Gothic", sans-serif;
+    font-weight: 900;
+    font-size: 1.0em;
+  }
+  
+  header ul{
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+    color: white;
+    padding-left: 70%;
+    padding-top: 2%;
+  }
+  
+  header li{
+    display: inline;
+    padding: 14px 16px;
+  }
+  
+  #logo {
+    padding-left: 2%;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+  }
+
+  .banner{
+    width: 100%;
+    position: relative;
+    background-color: black;
+  }
+
+  .banner img {
+    object-fit: cover;
+    width: 100%;
+    filter: opacity(55%);
+  }
+
+  .banner .content{
+    position: absolute;
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+  }
+  
+  .banner .content h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 5.5em;
+    font-family: "Playfair Display", serif;
+    text-transform: uppercase;
+    color: #ffff;
+    position: relative;
+  }
+  
+  .banner .content p {
+    font-size: 1.5em;
+    font-family: "Nanum Gothic", sans-serif;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: #ffff;
+    position: relative;
+  }
+
+  .intro{
+    text-align: center;
+  }
+
+  .intro h1{
+    color: #038f70;
+    font-family: "Playfair Display", "serif";
+    text-align: center;
+    padding-top: 2%;
+    font-size: 250%;
+  }
+  
+  .intro p{
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    font-size: 120%;
+  }
+
+  .contatos1{
+    padding-left: 8%;
+    padding-right: 8%;
+    text-align: center;
+  }
+  
+  .contatos1 h1{
+    font-family: "Playfair Display", "serif";
+    font-size: 250%;
+    text-align: center;
+    margin-top: 4%;
+    text-transform: uppercase;
+    color: white;
+    border-style: solid;
+    border-color: #038f70;
+    background-color: #038f70;
+  }
+  
+  .contatos1 h1:hover{
+    background-color: white; 
+    color: #038f70;
+  }
+
+  .contatos1 p, h2{
+    font-family: "Roboto", sans-serif;
+  }
+  
+  .contatos1 p{
+    font-size: 1.5em;
+  }
+
+ .local{
+    text-align: center;
+    padding-left: 8%;
+    padding-right: 8%;
+    padding-bottom: 5%;
+  }
+  
+  .local h1{
+    text-align: center;
+    font-family: "Playfair Display", "serif";
+    font-size: 250%;
+    margin-top: 4%;
+    text-transform: uppercase;
+    color: white;
+    border-style: solid;
+    border-color: #038f70;
+    background-color: #038f70;
+  }
+  
+  .local h1:hover{
+    background-color: white; 
+    color: #038f70;
+  }
+  
+  .local h2{
+    font-family: "Playfair Display", "serif";
+    text-align: center;
+    font-size: 220%;
+    color: #038f70;
+    margin-top: 0;
+  }
+  
+  footer{
+    background-color: #032B22;
+    color: white;
+    font-family: "Nanum Gothic", sans-serif;
+    margin: 0;
+    padding-top: 2%;
+  }
+  
+  footer h1{
+    color: #40FFB5;
+    font-family: "Playfair Display", serif;
+    font-size: 7em;
+    text-transform: uppercase;
+    text-align: right;
+    padding-right: 1%;
+    padding-top: 0;
+  }
+  
+  
+  /* Media Queries para Telemóvel, por exemplo */
+  @media (max-width: 768px) {
+  
+    .header img{
+      width:3%;
+    }
+  
+    header {
+      display: flex;
+      font-weight: 900;
+      font-size: 1.0em;
+    }
+  
+    header ul{
+      padding-left: 10%;
+      padding-top: 7%;
+    }
+    
+    header li{
+      display: inline;
+      padding: 14px 16px;
+    }
+    
+    .banner .content h1 {
+      font-size: 2.0em;
+    }
+    
+    .banner .content p {
+      font-size: 0.5em;
+    }
+  
+    .intro{
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      padding: 0;
+    }
+  
+    .intro img{
+      display: none;
+    }
+  
+    .button1 {
+      display: none;
+    }
+  
+    footer h1{
+      font-size: 3em;
+    }
+  
+    .acomodacoes h1{
+      font-size: 170%;
+      color: white;
+      background-color: #038f70;
+    }
+    
+    .acomodacoes h1:hover{
+      background-color: white; 
+      color: #038f70;
+    }
+    
+    .galeria{
+      width: 44%;
+    }
+  
+    .desc{
+      display: none;
+    }
+  
+    .ofertas h1{
+      font-size: 170%;
+      color: white;
+      background-color: #038f70;
+    }
+    
+    .ofertas h1:hover{
+      background-color: white; 
+      color: #038f70;
+    }
+    
+    .ofertas h2{
+      font-size: 150%;
+      color: #038f70;
+      margin-top: 0;
+    }
+    
+    .ofertas p{
+      font-family: "Roboto", sans-serif;
+      text-align: center;
+      font-size: 100%;
+    }
+  
+    .texto1{
+      padding-top: 3%;
+      padding-bottom: 3%;
+      column-count: 1;
+    }
+    
+    .feedbacks{
+      padding-left: 8%;
+      padding-right: 8%;
+    }
+    
+    .feedbacks h1{
+      font-size: 170%;
+      margin-top: 5%;
+      color: white;
+      background-color: #038f70;
+    }
+  
+    .feedbacks h1:hover{
+      background-color: white; 
+      color: #038f70;
+    }
+    
+    .feedbacks p{
+      font-style: italic;
+    }
+    
+    .texto2{
+      column-count: 1;
+    }
+  }
