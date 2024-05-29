@@ -297,15 +297,12 @@ footer p, h2{
 
   footer h1{
     font-size: 3em;
-
   }
 
   .acomodacoes h1{
-    font-size: 200%;
+    font-size: 170%;
     color: white;
     background-color: #038f70;
-    border-style: solid;
-    border-color: #038f70;
   }
   
   .acomodacoes h1:hover{
@@ -319,5 +316,59 @@ footer p, h2{
 
   .desc{
     display: none;
+  }
+
+  .ofertas h1{
+    font-size: 170%;
+    color: white;
+    background-color: #038f70;
+  }
+  
+  .ofertas h1:hover{
+    background-color: white; 
+    color: #038f70;
+  }
+  
+  .ofertas h2{
+    font-size: 150%;
+    color: #038f70;
+    margin-top: 0;
+  }
+  
+  .ofertas p{
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    font-size: 100%;
+  }
+
+  .texto1{
+    padding-top: 3%;
+    padding-bottom: 3%;
+    column-count: 1;
+  }
+  
+  .feedbacks{
+    padding-left: 8%;
+    padding-right: 8%;
+  }
+  
+  .feedbacks h1{
+    font-size: 170%;
+    margin-top: 5%;
+    color: white;
+    background-color: #038f70;
+  }
+
+  .feedbacks h1:hover{
+    background-color: white; 
+    color: #038f70;
+  }
+  
+  .feedbacks p{
+    font-style: italic;
+  }
+  
+  .texto2{
+    column-count: 1;
   }
 }
