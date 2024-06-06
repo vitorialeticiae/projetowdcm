@@ -20,6 +20,11 @@ header li{
   padding: 14px 16px;
 }
 
+.lista li a {
+  list-style: none;
+  color: inherit;
+}
+
 #logo {
   padding-left: 2%;
 }
@@ -80,11 +85,15 @@ body {
   background-color: #038f70;
   transition-duration: 0.4s;
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  text-decoration: none;
+  color: inherit;
 }
 
 .button1:hover {
   background-color: white; 
   color: #038f70;
+  list-style: none;
+  color: inherit;
 }
 
 a:link {
@@ -239,11 +248,15 @@ a:active {
   background-color: #038f70;
   transition-duration: 0.4s;
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  text-decoration: none;
+  color: inherit;
 }
 
 .button2:hover {
   background-color: white; 
   color: #038f70;
+  text-decoration: none;
+  color: inherit;
 }
 
 .feedbacks{
@@ -302,6 +315,7 @@ footer h1{
   text-align: right;
   padding-right: 1%;
   padding-top: 0;
+  margin: 0;
 }
 
 footer p, h2{
@@ -433,4 +447,6 @@ footer p, h2{
   .texto2{
     column-count: 1;
   }
+
+
 }
